@@ -1,0 +1,122 @@
+/* 56-_ */
+
+
+:root {
+    --p1: #0fd;
+    --p2: #f00;
+    --draw: #00a800;
+}
+
+
+body {
+    background-color: #1b1b1b;
+}
+
+
+.full {
+    height: 100vh;
+    margin: 0;
+}
+
+.draw {
+    background-image: radial-gradient(ellipse at bottom right, #ff0000, transparent, transparent, transparent), radial-gradient(ellipse at bottom left, #00ffdd, transparent, transparent, transparent);
+}
+
+.playerTwoWins {
+    background-image: radial-gradient(ellipse at bottom right, #ff0000, transparent, transparent), radial-gradient(ellipse at bottom left, #00ffdd, transparent, transparent, transparent,transparent);
+    transition: all 1s linear;
+}
+
+.playerOneWins {
+    background-image: radial-gradient(ellipse at bottom right, #ff0000, transparent, transparent, transparent, transparent), radial-gradient(ellipse at bottom left, #00ffdd, transparent, transparent);
+    transition: all 1s linear;
+}
+
+/* Head */
+.Head {
+    height: 20vh;
+    text-align: center;
+}
+
+.heading{
+    font-size: 12vmin;
+    line-height: 14vmin;
+    margin: 2vh 0;
+    color: #00a800;
+}
+
+/* BODY */
+
+
+.Body {
+    height: 55vh;
+}
+
+    /* DICE */
+
+    .playerOne {
+        text-align: end ;
+        color: #0fd;
+        font-size: min(40vh, 30vw);
+        padding-top: 0;
+        padding-left: min(2vh, 2vw);
+        padding-right: min(2vh, 2vw);
+    }
+
+    .playerTwo {
+        text-align: start;
+        color: #f00;
+        font-size: min(40vh, 30vw);
+        padding-top: 0;
+        padding-left: min(2vh, 2vw);
+        padding-right: min(2vh, 2vw);
+    }
+
+    /* BUTTON */
+
+    .BUTTON {
+        height: 15vh;
+    }
+
+    .BUTTON .col-12 {
+        text-align: center;
+    }
+
+    #btn {
+        border: 4px solid var(--draw);
+        border-radius: 14px;
+        color: var(--draw);
+        font-size: min(4vh, 4vw);
+        height: min(10vh, 10vw);
+        margin-top: calc((15vh - min(10vh, 10vw))/2);
+        margin-bottom: calc((15vh - min(10vh, 10vw))/2);
+        width: max(20vw, 140px);
+        transition: 0.3s;
+    }
+
+    /* Hover effects */
+
+    #btn:hover {
+        background-color: var(--draw);
+        color: #1b1b1b;
+        font-size: min(5vh, 5vw);
+        height: min(12vh, 12vw);
+        margin-top: calc((15vh - min(12vh, 12vw))/2);
+        margin-bottom: calc((15vh - min(12vh, 12vw))/2);
+        width: max(22vw, 160px);
+    }
+
+/* FOOTER */
+
+.foot {
+    height: 10vh;
+}
+
+/* Media Query */
+
+@media screen and (min-width: 768px) {
+    .cont {
+        padding-left: 16vw;
+        padding-right: 16vw;
+    }
+}

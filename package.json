@@ -1,0 +1,19 @@
+{
+  "name": "diceegame",
+  "version": "1.0.0",
+  "description": "First web project with JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALI-QADIR/DiceeGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALI-QADIR/DiceeGame/issues"
+  },
+  "homepage": "https://github.com/ALI-QADIR/DiceeGame#readme"
+}

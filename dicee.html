@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/99c02f80e6.js" crossorigin="anonymous"></script>
+    <title>Dicee Game</title>
+</head>
+<body>
+    <section class="full draw container-fluid" id="sect">
+        <div class="cont">
+            <header class="Head row">
+                <h1 class="heading">Dice Game</h1>
+            </header>
+            <div class="Body row">
+                <div class="col-6 playerOne">
+                    <i class="fa-solid fa-dice-one" id="D1"></i>
+                </div>
+                <div class="col-6 playerTwo">
+                    <i class="fa-solid fa-dice-one" id="D2"></i>
+                </div>
+            </div>
+            <div class="BUTTON row">
+                <div class="col-12">
+                    <button class="btn" id="btn" onclick="rollDice()">ROLL</button>
+                </div>
+            </div>
+            <footer class="row foot"></footer>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
