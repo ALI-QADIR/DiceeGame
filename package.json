@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ALI-QADIR/DiceeGame/issues"
   },
-  "homepage": "https://github.com/ALI-QADIR/DiceeGame#readme"
+  "homepage": "https://github.com/ALI-QADIR/DiceeGame#readme",
+  "dependencies": {
+    "jshint": "^2.13.4"
+  }
 }
