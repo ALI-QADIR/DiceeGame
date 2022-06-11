@@ -19,18 +19,18 @@ body {
 }
 
 .draw {
-    background-image: radial-gradient(ellipse at bottom right, #ff0000, transparent, transparent, transparent), radial-gradient(ellipse at bottom left, #00ffdd, transparent, transparent, transparent);
+    background-image: linear-gradient(to left, #ff0000, transparent, transparent, transparent), linear-gradient(to right, #00ffdd, transparent, transparent, transparent);
 }
 
-.playerTwoWins {
-    background-image: radial-gradient(ellipse at bottom right, #ff0000, transparent, transparent), radial-gradient(ellipse at bottom left, #00ffdd, transparent, transparent, transparent,transparent);
+/* .playerTwoWins {
+    background-image: linear-gradient(to left, #ff0000, transparent, transparent), linear-gradient(to right, #00ffdd, transparent, transparent, transparent,transparent);
     transition: all 1s linear;
 }
 
 .playerOneWins {
-    background-image: radial-gradient(ellipse at bottom right, #ff0000, transparent, transparent, transparent, transparent), radial-gradient(ellipse at bottom left, #00ffdd, transparent, transparent);
+    background-image: linear-gradient(to left, #ff0000, transparent, transparent, transparent, transparent), linear-gradient(to right, #00ffdd, transparent, transparent);
     transition: all 1s linear;
-}
+} */
 
 /* Head */
 .Head {
@@ -83,9 +83,9 @@ body {
     }
 
     #btn {
-        border: 4px solid var(--draw);
+        border: 4px solid #00a800;
         border-radius: 14px;
-        color: var(--draw);
+        color: #00a800;
         font-size: min(4vh, 4vw);
         height: min(10vh, 10vw);
         margin-top: calc((15vh - min(10vh, 10vw))/2);
@@ -97,7 +97,7 @@ body {
     /* Hover effects */
 
     #btn:hover {
-        background-color: var(--draw);
+        background-color: #00a800;
         color: #1b1b1b;
         font-size: min(5vh, 5vw);
         height: min(12vh, 12vw);
