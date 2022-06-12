@@ -70,5 +70,5 @@ function rollDice() {
     winner(randomList);
 
     D1.replace(c1, iconList[randomList[0]]);
-    D2.replace(c2, iconList[randomList[1]]);
+    D2.replace(c2, iconList[randomList[1]]);;
 }

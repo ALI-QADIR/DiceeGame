@@ -22,7 +22,7 @@ body {
     background-image: linear-gradient(to left, #ff0000, transparent, transparent, transparent), linear-gradient(to right, #00ffdd, transparent, transparent, transparent);
 }
 
-/* .playerTwoWins {
+.playerTwoWins {
     background-image: linear-gradient(to left, #ff0000, transparent, transparent), linear-gradient(to right, #00ffdd, transparent, transparent, transparent,transparent);
     transition: all 1s linear;
 }
@@ -30,7 +30,7 @@ body {
 .playerOneWins {
     background-image: linear-gradient(to left, #ff0000, transparent, transparent, transparent, transparent), linear-gradient(to right, #00ffdd, transparent, transparent);
     transition: all 1s linear;
-} */
+}
 
 /* Head */
 .Head {
